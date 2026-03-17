@@ -1,0 +1,13 @@
+{
+  "description": "A simple extension that adds Zero Two to every image on a webpage.",
+  "manifest_version": 3,
+  "name": "Zero Two Image Everywhere",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["zerotwo.js"]
+    }
+  ]
+}
