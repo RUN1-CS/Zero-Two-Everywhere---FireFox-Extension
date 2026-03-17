@@ -3,7 +3,7 @@ const OVERLAY_ATTR = "data-zerotwo-overlay";
 
 function getImg() {
   return browser.runtime.getURL(
-    "content/zero-two-" + (Math.floor(Math.random() * 5) + 1) + ".png",
+    "content/zero-two-" + (Math.floor(Math.random() * 6) + 1) + ".png",
   );
 }
 
